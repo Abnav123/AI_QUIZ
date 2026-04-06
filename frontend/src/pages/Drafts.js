@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api';
-import { Pencil, Rocket, Loader2, FileText, BookOpen, Trash2 } from 'lucide-react';
+import { Pencil, Rocket, Loader2, FileText, Trash2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Drafts = () => {

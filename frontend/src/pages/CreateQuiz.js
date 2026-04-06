@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import api from '../api';
-import { Loader2, Lightbulb, CheckSquare, HelpCircle, Zap, BookMarked, Save, ChevronRight } from 'lucide-react';
+import { Loader2, Lightbulb, CheckSquare, HelpCircle, Zap, Save, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const CreateQuiz = () => {

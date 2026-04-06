@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api';
-import { ChevronDown, ChevronRight, BookOpen, Loader2, Award, Trash2 } from 'lucide-react';
+import { ChevronDown, ChevronRight, BookOpen, Loader2, Trash2 } from 'lucide-react';
 
 const PublishedQuizzes = () => {
     const [groupedQuizzes, setGroupedQuizzes] = useState({});
